@@ -1,9 +1,9 @@
-type Product = {
-  name: string;
-  prize: number;
-}
 
 (async ()=> {
+  type Product = {
+    name: string;
+    prize: number;
+  }
   const myCart = [];
   const products: Array<Product> = [];
   const limit = 2;
